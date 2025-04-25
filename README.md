@@ -6,7 +6,7 @@
 
 ### Matplotlib for Static Graphs
 
-1. Download the provided Jupyter notebook [tutorial.ipynb](https://raw.githubusercontent.com/klauck/data_visualization_tutorial/refs/heads/main/1_matplotlib/tutorial.ipynb).
+1. Download the provided Jupyter notebook [tutorial.ipynb](https://github.com/klauck/data_visualization_tutorial/blob/main/1_matplotlib/tutorial.ipynb).
 
 2. Open https://jupyter.org/try-jupyter/lab/ in your browser.
 
