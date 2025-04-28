@@ -6,14 +6,20 @@
 
 ### Matplotlib for Static Graphs
 
-1. Download the provided Jupyter notebook [tutorial.ipynb](https://github.com/klauck/data_visualization_tutorial/blob/main/1_matplotlib/tutorial.ipynb).
+1. Download the provided Jupyter notebook [tutorial.ipynb](https://github.com/klauck/data_visualization_tutorial/blob/main/1_matplotlib/tutorial.ipynb)
 
-2. Open https://jupyter.org/try-jupyter/lab/ in your browser.
+2. Open https://jupyter.org/try-jupyter/lab/ in your browser
 
-3. Upload and open the downloaded Jupyter notebook (see Step 1).
+3. Upload and open the downloaded Jupyter notebook (see Step 1)
 
 
 ### Chart.js for Interactive Web Applications
+
+1. Download the provided HTML page [dynamic_bar_chart.html](https://github.com/klauck/data_visualization_tutorial/blob/main/2_chart_js/dynamic_bar_chart.html)
+2. Open the downloaded HTML page in your browser (see Step 1)
+3. Open the downloaded HTML page in a text editor
+   1. Inspect the code
+   2. Follow the live tutorial instructions to adapt and reload the HTML page 
 
 ### Python `curses` for Terminal Applications
 
