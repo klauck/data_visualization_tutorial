@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #chartContainer {
+        width: 1000px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="chartContainer">
+      <canvas id="myChart"></canvas>
+    </div>
+    
+    
+    <!-- <button type="button" onclick="addApproch()">Add Approach to Chart</button> -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      const ctx = document.getElementById('myChart');
+
+      queries = ['Query 1', 'Query 2', 'Query 3', 'Query 4', 'Query 5'];
+
+      execution_times = [];
+      execution_times.push({
+        label: 'no indexes',
+        data: [12, 19, 3, 5, 6]
+      });
+
+      // colors = [
+      //   '#1f77b4',
+      //   '#ff7f0e',
+      //   '#2ca02c',
+      //   '#d62728',
+      //   '#9467bd',
+      //   '#8c564b',
+      //   'e377c2',
+      //   '#7f7f7f',
+      //   '#bcbd22',
+      //   '#17becf'
+      // ];
+
+
+      runTimesChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: queries,
+          datasets: execution_times
+        },
+        // options: {
+        //   plugins: {
+        //     legend: {
+        //       labels: {
+        //         font: {
+        //           size: 16
+        //         }
+        //       }
+        //     },
+        //     title: {
+        //       display: true,
+        //       text: 'Query Run Times',
+        //       font: {
+        //         size: 16
+        //       }
+        //     }
+        //   },
+        //   scales: {
+        //     x: {
+        //       ticks: {
+        //         font: {
+        //           size: 16
+        //         }
+        //       },
+        //       title: {
+        //         display: true,
+        //         text: 'Queries',
+        //         font: {
+        //           size: 16
+        //         }
+        //       }
+        //     },
+        //     y: {
+        //       beginAtZero: true,
+        //       ticks: {
+        //         font: {
+        //           size: 16
+        //         }
+        //       },
+
+        //       title: {
+        //         display: true,
+        //         text: 'execution time in seconds',
+        //         font: {
+        //           size: 16
+        //         }
+        //       }
+        //     }
+        //   }
+        // }
+      });
+
+      function addApproch() {
+        let data = [];
+        for (let i = 0; i <= 5; i++) {
+          data.push(Math.floor(Math.random() * runTimesChart.data.datasets[0].data[i]));
+        }
+
+        runTimesChart.data.datasets.push({
+          label: 'Approach ' + runTimesChart.data.datasets.length,
+          data: data,
+          backgroundColor: colors[runTimesChart.data.datasets.length % colors.length]
+        });
+
+        runTimesChart.update();
+      }
+    </script>
+  </body>
+</html>
