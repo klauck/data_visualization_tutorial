@@ -23,3 +23,6 @@
 
 ### Python `curses` for Terminal Applications
 
+1. Download the provided Python script [dynamic_barplot.py](https://github.com/klauck/data_visualization_tutorial/blob/main/3_curses/dynamic_barplot.py)
+2. Open a terminal, go to the download location, and run `python dynamic_barplot.py`
+
