@@ -49,6 +49,13 @@ Matplotlib might not be the ideal choice for interactive applications, complex 3
    1. Inspect the code
    2. Optionally, adapt and reload the HTML page 
 
+**More Advanced Chart.js Project Examples**
+
+- A web application for analyzing database index selection approaches: [https://github.com/klauck/index_analysis](https://github.com/klauck/index_analysis)
+
+  <img width="700" alt="chart.js index analysis" src="https://raw.githubusercontent.com/klauck/index_analysis/refs/heads/main/screenshot.png" />
+
+
 ### Python `curses` for Terminal Applications
 
 Using [`curses`](https://docs.python.org/3/howto/curses.html), you can create terminal applications, such as visualizations or games.
@@ -64,3 +71,12 @@ Using [`curses`](https://docs.python.org/3/howto/curses.html), you can create te
 2. Open a terminal, go to the download location, and run `python dynamic_barplot.py`
 3. Optionally, adapt the code and rerun the application
 
+**More Advanced Curses Project Examples**
+
+- A visualization of the load-balancing in database clusters. [https://github.com/hyrise/replication](https://github.com/hyrise/replication)
+  
+  <img width="700" alt="curses load balancing" src="https://github.com/hyrise/replication/blob/main/screenshot.png" />
+
+- A simple Tetris game implemented using Python's curses library: [https://github.com/klauck/tetris](https://github.com/klauck/tetris)
+  
+  <img width="250" alt="curses tetris" src="https://github.com/klauck/tetris/blob/main/Screenshot.png" />
