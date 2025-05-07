@@ -1,4 +1,4 @@
-# Data Visualization Tutorial
+# Data Visualization - Tutorial
 
 **Abstract.** Humans can more easily perceive differences in line lengths, shapes, and colors (hues) than process sequences of text or numbers. This ability makes data visualization a powerful tool for exploring, understanding, and communicating data. Creating effective data visualizations is a crucial research skill. Visualizations support research at various stages, from early prototypes over systematic experiments to final publications in papers/theses, presentations, or applications/demonstrations. This process often involves presenting the same data at different levels of detail or adapting styles for different audiences. Fortunately, many free tools are available for different types of visualizations, allowing us to choose what best fits our needs. This tutorial provides an overview of common visualization types and tools. We will discuss strategies for managing data visualizations in research, including automation, customization, and best practices. Through hands-on examples, we will explore the plotting library Matplotlib for static graphs and Chart.js for interactive web-based visualizations. Participants will be encouraged to share their experiences and insights throughout the session.
 
@@ -80,3 +80,7 @@ Using [`curses`](https://docs.python.org/3/howto/curses.html), you can create te
 - A simple Tetris game implemented using Python's curses library: [https://github.com/klauck/tetris](https://github.com/klauck/tetris)
   
   <img width="250" alt="curses tetris" src="https://github.com/klauck/tetris/blob/main/Screenshot.png" />
+
+## License
+
+ <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Data Visualization - Tutorial</span> by <span property="cc:attributionName">Stefan Halfpap</span> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p> 
