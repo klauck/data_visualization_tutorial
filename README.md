@@ -15,13 +15,13 @@ Matplotlib might not be the ideal choice for interactive applications, complex 3
 
 **Exemplary Visualization**
 <p align="center">
-  <img width="290" alt="matplot_line_chart_example1" src="https://github.com/user-attachments/assets/39dc4445-d26b-432f-a772-f9ce59c3a279" />
-  <img width="545" alt="matplot_line_chart_example2" src="https://github.com/user-attachments/assets/ace5d36f-f230-4dec-a58d-4644c6ade4ef" />
+  <img width="32%" alt="matplot_line_chart_example1" src="https://github.com/user-attachments/assets/39dc4445-d26b-432f-a772-f9ce59c3a279" />
+  <img width="60%" alt="matplot_line_chart_example2" src="https://github.com/user-attachments/assets/ace5d36f-f230-4dec-a58d-4644c6ade4ef" />
 </p>
 <p align="center">
-  <img width="290" alt="matplot_bar_chart_example1" src="https://github.com/user-attachments/assets/f681d0a5-ab3f-47ea-b044-015c2b89a2c2" />
-  <img width="290" alt="matplot_bar_chart_example2" src="https://github.com/user-attachments/assets/a6c2ca28-9a13-4985-9aba-18593b7f84a9" />
-  <img width="290" alt="matplot_bar_chart_example3" src="https://github.com/user-attachments/assets/7b868dc3-2b9b-4a29-a7cb-57a728831624" />
+  <img width="32%" alt="matplot_bar_chart_example1" src="https://github.com/user-attachments/assets/f681d0a5-ab3f-47ea-b044-015c2b89a2c2" />
+  <img width="32%" alt="matplot_bar_chart_example2" src="https://github.com/user-attachments/assets/a6c2ca28-9a13-4985-9aba-18593b7f84a9" />
+  <img width="32%" alt="matplot_bar_chart_example3" src="https://github.com/user-attachments/assets/7b868dc3-2b9b-4a29-a7cb-57a728831624" />
 </p>
 
 
